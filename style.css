@@ -1,0 +1,363 @@
+
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+br {
+  display: flex;
+  justify-content: center;
+}
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.topnav img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-top: 3px;
+}
+.topnav input[type=text],i .fa {
+  margin-left: 30px;
+  margin-top: 5px;
+  width: 750px;
+  height: 40px;
+  border-radius: 60px;
+  border-color: black;
+}
+.topnav .categories {
+  
+  margin-left: 30px;
+  margin-top: 3px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(255, 106, 14);
+}
+.topnav .categories:hover {
+  border-radius: 60px;
+  background-color: rgb(255, 106, 14);
+  color: white;
+}
+.topnav .signin {
+  margin-left: 15px;
+  background: transparent;
+  border: none;
+  font-size: medium;
+  color: rgb(214, 96, 22);
+  font-weight: bold;
+  cursor: pointer;
+  transition-duration: 0.40s;
+}
+.topnav .signin:hover {
+  border-radius: 40px;
+  background-color: rgb(255, 106, 14);
+  color: white;
+}
+.topnav  i {
+  background: transparent;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  border-radius: 20px;
+
+}
+.topnav .search {
+  background: transparent;
+  border-color: white;
+  background-color: rgb(255, 106, 14);
+  border-radius: 80px ;
+}
+.header2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  position: relative;
+  
+}
+.header2 .text1 {
+  display: flex;
+  transition-duration: 450ms;
+  cursor: pointer;
+}
+.header2 .text1:hover {
+  transform: scale(1.3);
+  background-color:rgb(255, 106, 14);
+  border-radius: 40px;
+  color: white;
+}
+.header2 .text2 {
+  display: flex;
+  transition-duration: 450ms;
+  cursor: pointer;
+}
+.header2 .text2:hover {
+  transform: scale(1.3);
+  background-color:rgb(255, 106, 14);
+  border-radius: 40px;
+  color: white;
+}
+.header2 .text3 {
+  display: flex;
+  transition-duration: 450ms;
+  cursor: pointer;
+}
+.header2 .text3:hover {
+  transform: scale(1.3);
+  background-color:rgb(255, 106, 14);
+  border-radius: 40px;
+  color: white;
+}
+.header2 .text4 {
+  display: flex;
+  transition-duration: 450ms;
+  cursor: pointer;
+}
+.header2 .text4:hover {
+  transform: scale(1.3);
+  background-color:rgb(255, 106, 14);
+  border-radius: 40px;
+  color: white;
+}
+.header2 .text5 {
+  display: flex;
+  transition-duration: 450ms;
+  cursor: pointer;
+}
+.header2 .text5:hover {
+  transform: scale(1.3);
+  background-color:rgb(255, 106, 14);
+  border-radius: 40px;
+  color: white;
+}
+
+
+
+
+.heading1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: .48px;
+  line-height: 1.15;
+}
+.circle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+
+}
+.child img {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 80px;
+  display: flex;
+  padding: 30px;
+  transition-duration: 0.40ms;
+}
+.circle .child span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition-duration: 0.40ms;
+}
+.child img:hover{
+  transform: scale(1.3);
+}
+.circle .child  span:hover {
+  transform: scale(1.3);
+  background-color:rgb(255, 106, 14);
+  border-radius: 40px;
+  color: white;
+  padding: 5px; 
+}
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 300;
+  font-size: 31.01px;
+  line-height: 1.1;
+  letter-spacing: .46515px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+}
+.child2 {
+  height: 290px;
+  width: 200px;
+  border: 1px solid black;
+  border: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition-duration: 0.40ms;
+  
+}
+.child2 img {
+  height: 290px;
+  width: 200px;
+  border-radius: 5px;
+
+}
+.child2 span {
+  padding-top: 10px;
+}
+.child2:hover {
+  box-shadow: 1px 1px 2px lightslategray;
+  transform: scale(1.02);
+}
+@media (max-width: 1000px) {
+  .parent {
+    flex-direction: column;
+  }
+
+  .child2 {
+    width: 95%;
+    margin: 0px auto;
+    border-color: gray;
+    height: 90px;
+    flex-direction: row;
+    padding: 0px;
+  }
+
+  .child2 > img {
+    height: 100%;
+    width: 90px;
+  }
+
+  .child2 > span {
+    margin-top: 0px;
+    padding-left: 12px;
+  }
+  .child2:hover {
+    box-shadow: 1px 1px 2px lightgray;
+    transform: scale(1.02);
+    transition: 0.5s;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(31, 28, 28) !important;
+    color: rgb(255, 135, 60) !important;
+  }
+}
+
+
+
+.heading3 {
+  font-weight: 300;
+  font-size: 32.01px;
+  line-height: 1.1;
+  letter-spacing: .46515px;
+  margin-top: 40px;
+}
+.border {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parent2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.child3 img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 250px;
+  margin: 8px;
+  border-radius: 20px;
+}
+.child3 span {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 800;
+  margin-top: 30px;
+}
+
+.child3:hover {
+  box-shadow: 1px 1px 2px lightslategray;
+  transform: scale(1.02);
+  border-radius: 20px;
+} 
+.footer {
+  background-color: rgb(241 100 30);
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 130px;
+}
+.story a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  text-align: justify;
+  padding: 16px;
+  height: max-content;
+  
+}
+.foot1 p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  text-align: center;
+  line-height: 1.9;
+  font-size: .8em;
+  flex-wrap: wrap;
+}
+.foot1 h2 {
+  text-align: center;
+  padding-left: 5%;
+}
+.foot2 p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  text-align: center;
+  line-height: 1.9;
+  font-size: .8em;
+}
+.foot2 h2 {
+  padding-left: 7px;
+}
+.foot3 p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  text-align: center;
+  line-height: 1.9;
+  font-size: .8em;
+  height: 100px;
+}
+.foot3 h2 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
